@@ -18,8 +18,6 @@ processButton.addEventListener("click", () => {
         return;
     }
 
-    console.log(inputText.value);
-    debugger
     const capitalizedText = capitalizeWords(inputText.value);
     outputDiv.textContent = `Результат: ${capitalizedText}`;
 });
